@@ -300,7 +300,7 @@ def menu():
         os.system('xdg-open https://wa.me/+8801865272669')
         os.system("python Aid.py")
     elif NAYEM in ['3','03']:
-         result()
+         result("python Aid.py")
     elif NAYEM in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
